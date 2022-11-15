@@ -12,17 +12,17 @@ const Navbar = () => {
                   <div className="logo">
                     <a href="/">
                       <img
-                        src="img/custometisalat.png"
+                        src="img/rt.png"
                         alt="etisalat logo"
                         style={{
-                          width: "70%",
+                          width: "15%",
                           height: "auto",
                           borderRadius: "10px",
                         }}
                       />
                       {/* <h2
                         style={{
-                          background: "#6F962A",
+                          background: "#0C99CA",
                           color: "white",
                           display: "inline",
                           padding: "0.5rem 1.5rem 0.5rem 1.5rem",
@@ -42,11 +42,13 @@ const Navbar = () => {
                     <nav>
                       <ul id="navigation">
                         <li>
-                          <a href="#packages">Wifi & TV Packages</a>
-                        </li>
-                        <li>
                           <a href="#whychooseetisalat">Why choose etisalat?</a>
                         </li>
+
+                        <li>
+                          <a href="#packages">Wifi & TV Packages</a>
+                        </li>
+
                         <li>
                           <a href="#contact">Contact us</a>
                         </li>

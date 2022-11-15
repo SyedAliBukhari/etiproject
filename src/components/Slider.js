@@ -12,22 +12,22 @@ const Slider = () => {
                   data-wow-duration="1s"
                   data-wow-delay=".1s"
                 >
-                  ELIFE BROADBAND INTERNET
+                  Du BROADBAND INTERNET
                 </h5>
                 <h3
                   className="wow fadeInRight"
                   data-wow-duration="1s"
                   data-wow-delay=".1s"
                 >
-                  GET SUPER FAST ELIFE HOME INTERNET
+                  Get Ultra High Speed Du Home Internet Packages
                 </h3>
                 <h4
                   className="wow fadeInRight text-white"
                   data-wow-duration="1s"
                   data-wow-delay=".1s"
-                  style={{ fontSize: "2.2rem" }}
+                  style={{ fontSize: "2.1rem" }}
                 >
-                  GET 50% DISCOUNT FOR 3 MONTHS
+                  15% Monthly Discount & Free Installation
                 </h4>
                 <p
                   className="wow fadeInRight text-white"
@@ -35,8 +35,8 @@ const Slider = () => {
                   data-wow-delay=".1s"
                   style={{ fontWeight: "100", fontSize: "1.5rem" }}
                 >
-                  Surf, stream, chat and game with fast speeds. ☑ Up to 1Gbps
-                  Ultra-fast with Etisalat Home Wifi Connection
+                  Advance Wi-Fi router, Surf, stream, chat and game with fast
+                  speeds. ☑ Upto 800 Mbps plan available!
                 </p>
                 <div
                   className="sldier_btn wow fadeInLeft"

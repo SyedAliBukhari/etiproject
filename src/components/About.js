@@ -20,13 +20,13 @@ const About = () => {
                 data-wow-duration="1.2s"
                 data-wow-delay=".3s"
               >
-                <h3>Prices starting from 299 AED/month*</h3>
+                <h3>Prices starting from 199 AED/month*</h3>
                 <h4>Want To Go Faster? You Got It.</h4>
               </div>
               <div className="about_list">
                 <span>
-                  GET 50% DISCOUNT ON eLIFE UNLIMITED SPORTS FOR 3 MONTHS. Get
-                  super fast 12 Mbps Internet and eLife TV anywhere!
+                  Get 15% Monthly Discount & Free Installation, We use Advance
+                  Wi-Fi router for more coverage.
                 </span>
 
                 <ul>
@@ -35,14 +35,26 @@ const About = () => {
                     data-wow-duration="1s"
                     data-wow-delay=".5s"
                   >
-                    Get Upto 1GB Ultra-fast Internet Speed for Online Streaming
+                    Get your du Home Internet Connection within same day
                   </li>
                   <li
                     className="wow fadeInRight"
                     data-wow-duration="1s"
                     data-wow-delay=".6s"
                   >
-                    200+ HD Premium Channels On Demands Movies & TV Series
+                    Enjoy free amazon prime for 1 year
+                    <span
+                      style={{
+                        marginLeft: "1rem",
+                        background: "#0C99CA",
+                        padding: "0px 10px 2px 10px",
+                        borderRadius: "20px",
+                        color: "white",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Limited Time Offer
+                    </span>
                   </li>
                   <li
                     className="wow fadeInRight"
@@ -51,6 +63,26 @@ const About = () => {
                   >
                     Free Calls Landline to Landlines Within UAE
                   </li>
+                  <li
+                    className="wow fadeInRight"
+                    data-wow-duration="1s"
+                    data-wow-delay=".7s"
+                  >
+                    Order today & save on deposit
+                    <span
+                      style={{
+                        marginLeft: "1rem",
+                        background: "#0C99CA",
+                        padding: "0px 10px 2px 10px",
+                        borderRadius: "20px",
+                        color: "white",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Online exclusive
+                    </span>
+                  </li>
+
                   <li
                     className="wow fadeInRight"
                     data-wow-duration="1s"

@@ -1,55 +1,116 @@
 import React from "react";
-const Package1 = () => {
+
+const Package1 = ({
+  data,
+  decreaseHeight,
+  count,
+  LandlineImage,
+  WirelessImage,
+}) => {
+  const {
+    oldValue,
+    newValue,
+    highLight,
+    packageName,
+    packageSummary,
+    points,
+    bottomHighLight,
+  } = data;
+
   return (
-    <div className="col-lg-4 col-md-6">
-      <div
-        className="single_service wow fadeInLeft shadow"
-        data-wow-duration="1.2s"
-        data-wow-delay=".5s"
-      >
-        <div className="info text-center">
-          <h1
-            style={{ color: "white", letterSpacing: "0.5rem" }}
-            className="pt-3"
-          >
-            LITE
-          </h1>
-          <img
-            src="img/price-img1.png"
-            alt="first img"
-            style={{ width: "40%", height: "auto" }}
-          />
-          <h4 className="mt-3">Data Unlimited</h4>
-
-          <h3>12 Mbps</h3>
-          <span style={{ fontSize: "18px" }}>Download Speeds</span>
-        </div>
-        <div className="service_content">
-          <ul>
-            <li> 2 MONTHS FREE SELECTED AREAS </li>
-            <li> FREE CALLS & FREE ROUTER</li>
-
-            <span
+    <>
+      <div className="col-lg-3 col-md-6">
+        <div
+          className="single_service wow fadeInLeft shadow"
+          data-wow-duration="1.2s"
+          data-wow-delay=".5s"
+        >
+          <div className="info text-center">
+            <h4
               style={{
-                fontSize: "2.0rem",
-                paddingLeft: "15px",
                 color: "white",
-                marginTop: "10px",
+                letterSpacing: "0.1rem",
+                fontWeight: "bold",
               }}
+              className="pt-4"
             >
-              AED 299 /Mo
-            </span>
-          </ul>
-          <br /> <br />
-          <div className="apply_btn">
-            <a href="#contact" className="boxed-btn3 btn-block">
-              Contact Us
-            </a>
+              AED{" "}
+              <span className="font-black old-value d-inline-block pr-2">
+                {" "}
+                {oldValue}{" "}
+              </span>
+              {newValue}* /month + 5%VAT
+            </h4>
+
+            {highLight?.map((data, i) => (
+              <h6 className="package-highlight text-center" key={i}>
+                {data}
+              </h6>
+            ))}
+
+            <div className="d-flex flex-column align-items-center ml-3">
+              <h4 className="mt-2">You get</h4>
+              <h2 className="font-white">DU Home {packageName}</h2>
+            </div>
+
+            {packageSummary.map((data, i) => (
+              <div className="d-flex  align-items-center ml-3" key={i}>
+                <h4 className="mr-2  font-black">{data.preValue}</h4>
+                <h6 className="font-white"> {data.postValue}</h6>
+              </div>
+            ))}
+
+            {/* <span style={{ fontSize: "18px" }}>Download Speeds</span> */}
           </div>
-          <br />
+
+          {/* service-content start */}
+          <div className="service_content">
+            <ul>
+              {points?.map((point, i) => (
+                <>
+                  <li key={i} style={{ fontSize: "13px" }}>
+                    {point}{" "}
+                  </li>
+                  {decreaseHeight && <br />}
+                </>
+              ))}
+            </ul>
+
+            {bottomHighLight?.map((data, i) => (
+              <h6 className="package-highlight text-center" key={i}>
+                {data}
+              </h6>
+            ))}
+            {decreaseHeight && <br />}
+            <div className="apply_btn">
+              <a href="#contact" className="boxed-btn3 btn-block">
+                Contact Us
+              </a>
+            </div>
+          </div>
+
+          {/* service-content end */}
         </div>
       </div>
-    </div>
+
+      {decreaseHeight && count == 1 ? (
+        <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+          <img
+            alt="Image Rendering Error"
+            src={
+              LandlineImage
+                ? "img/221.png"
+                : WirelessImage
+                ? "img/wireless.png"
+                : "img/221.png"
+            }
+            style={{ width: "90%", height: "auto", borderRadius: "20px" }}
+          />
+        </div>
+      ) : (
+        ""
+      )}
+    </>
   );
 };
 
