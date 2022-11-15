@@ -15,20 +15,20 @@ const Footer = () => {
                   Call us today on 054-7731481
                 </h3>
                 <h3 style={{ textAlign: "center" }}>
-                  GET SUPER FAST HOME INTERNET
+                  GET SUPER DU FAST HOME INTERNET
                 </h3>
               </a>
               <center>
-                <img
-                  src="img/custometisalat.png"
+                {/* <img
+                  src="img/rt.png"
                   alt="etisalat logo"
                   className="mt-3"
                   style={{
-                    width: "25%",
+                    width: "150px",
                     height: "auto",
                     borderRadius: "10px",
                   }}
-                />
+                /> */}
               </center>
             </div>
           </div>

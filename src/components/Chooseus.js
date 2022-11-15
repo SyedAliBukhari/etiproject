@@ -55,7 +55,7 @@ const Chooseus = () => {
                   style={{
                     width: "25%",
                     height: "auto",
-                    color: "#6F962A",
+                    color: "#0C99CA",
                   }}
                 ></FaDownload>
 
@@ -74,7 +74,7 @@ const Chooseus = () => {
                   style={{
                     width: "25%",
                     height: "auto",
-                    color: "#6F962A",
+                    color: "#0C99CA",
                   }}
                 ></FaCloudUploadAlt>
 
@@ -93,7 +93,7 @@ const Chooseus = () => {
                   style={{
                     width: "25%",
                     height: "auto",
-                    color: "#6F962A",
+                    color: "#0C99CA",
                   }}
                 ></FaMobileAlt>
 
@@ -112,7 +112,7 @@ const Chooseus = () => {
                   style={{
                     width: "25%",
                     height: "auto",
-                    color: "#6F962A",
+                    color: "#0C99CA",
                   }}
                 ></FaRegCheckSquare>
 
