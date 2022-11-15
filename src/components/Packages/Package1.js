@@ -93,10 +93,10 @@ const Package1 = ({
         </div>
       </div>
 
-      {decreaseHeight && count == 1 ? (
+      {decreaseHeight && count === 1 ? (
         <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
           <img
-            alt="Image Rendering Error"
+            alt="Rendering Error"
             src={
               LandlineImage
                 ? "img/221.png"
