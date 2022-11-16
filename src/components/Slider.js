@@ -43,7 +43,7 @@ const Slider = () => {
                   data-wow-duration="1s"
                   data-wow-delay=".2s"
                 >
-                  <a href="tel:054-7731481" className="boxed-btn3">
+                  <a href="tel:052-6317200" className="boxed-btn3">
                     Call Us
                   </a>
                 </div>

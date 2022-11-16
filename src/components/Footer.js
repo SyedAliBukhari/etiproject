@@ -10,7 +10,7 @@ const Footer = () => {
               data-wow-duration="1s"
               data-wow-delay=".3s"
             >
-              <a href="tel:054-7731481">
+              <a href="tel:052-6317200">
                 <h3 className="text-center">Call us today on 052-6317200</h3>
               </a>
               <a href="mailto:duonlineae@gmail.com">
@@ -19,18 +19,6 @@ const Footer = () => {
               <h5 className="font-white text-center mt-3">
                 To GET SUPER FAST DU HOME INTERNET
               </h5>
-              <center>
-                {/* <img
-                  src="img/rt.png"
-                  alt="etisalat logo"
-                  className="mt-3"
-                  style={{
-                    width: "150px",
-                    height: "auto",
-                    borderRadius: "10px",
-                  }}
-                /> */}
-              </center>
             </div>
           </div>
         </div>

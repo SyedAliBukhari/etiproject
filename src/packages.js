@@ -1,7 +1,7 @@
 export const AllPackages = [
   {
     oldValue: "389",
-    newValue: "332",
+    newValue: "350",
     highLight: ["Save AED 400, no deposit & Installation"],
     packageName: "Starter",
     packageSummary: [

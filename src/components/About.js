@@ -99,7 +99,7 @@ const About = () => {
                 data-wow-duration="1.3s"
                 data-wow-delay=".5s"
               >
-                <a className="boxed-btn3" href="tel:054-7731481">
+                <a className="boxed-btn3" href="tel:052-6317200">
                   Call US
                 </a>
               </div>

@@ -5,6 +5,7 @@ import Chooseus from "./components/Chooseus";
 import About from "./components/About";
 import PackagesList from "./components/PackagesList";
 import Footer from "./components/Footer";
+import Whatsapp from "./components/Whatsapp";
 function App() {
   return (
     <React.Fragment>
@@ -14,6 +15,7 @@ function App() {
       <About />
       <PackagesList />
       <Footer />
+      <Whatsapp />
     </React.Fragment>
   );
 }
