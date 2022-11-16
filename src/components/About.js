@@ -45,13 +45,14 @@ const About = () => {
                     Enjoy free amazon prime for 1 year
                     <span
                       style={{
-                        marginLeft: "1rem",
-                        background: "#0C99CA",
+                        marginLeft: "0.3rem",
+                        fontSize: "12px",
                         padding: "0px 10px 2px 10px",
                         borderRadius: "20px",
                         color: "white",
                         cursor: "pointer",
                       }}
+                      className="package-highlight"
                     >
                       Limited Time Offer
                     </span>
@@ -71,13 +72,14 @@ const About = () => {
                     Order today & save on deposit
                     <span
                       style={{
-                        marginLeft: "1rem",
-                        background: "#0C99CA",
+                        marginLeft: "0.3rem",
+                        fontSize: "12px",
                         padding: "0px 10px 2px 10px",
                         borderRadius: "20px",
                         color: "white",
                         cursor: "pointer",
                       }}
+                      className="package-highlight"
                     >
                       Online exclusive
                     </span>
