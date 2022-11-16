@@ -17,6 +17,7 @@ const Whatsapp = () => {
         <a
           href="https://wa.me/0526317200"
           target="_blank"
+          rel="noopener noreferrer"
           className="package-highlight d-flex justify-content-center align-items-center"
         >
           <span class="l7jjieqr fewfhwl7">
