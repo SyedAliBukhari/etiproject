@@ -94,7 +94,11 @@ const Package1 = ({
       </div>
 
       {decreaseHeight && count === 1 ? (
-        <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
+        <div
+          className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center wow fadeInUp"
+          data-wow-duration="1.2s"
+          data-wow-delay=".9s"
+        >
           <img
             alt="Rendering Error"
             src={
