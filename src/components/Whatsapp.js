@@ -15,7 +15,7 @@ const Whatsapp = () => {
         }}
       >
         <a
-          href="https://wa.me/07379793070"
+          href="https://wa.link/7utt81"
           target="_blank"
           rel="noopener noreferrer"
           className="package-highlight d-flex justify-content-center align-items-center"
