@@ -71,7 +71,7 @@ const Package1 = ({
                   <li key={i} style={{ fontSize: "13px" }}>
                     {point}{" "}
                   </li>
-                  {decreaseHeight && <br />}
+                  {decreaseHeight && count < 2 && <br />}
                 </>
               ))}
             </ul>

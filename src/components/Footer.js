@@ -11,13 +11,14 @@ const Footer = () => {
               data-wow-delay=".3s"
             >
               <a href="tel:054-7731481">
-                <h3 style={{ textAlign: "center" }}>
-                  Call us today on 054-7731481
-                </h3>
-                <h3 style={{ textAlign: "center" }}>
-                  GET SUPER DU FAST HOME INTERNET
-                </h3>
+                <h3 className="text-center">Call us today on 052-6317200</h3>
               </a>
+              <a href="mailto:duonlineae@gmail.com">
+                <h3 className="text-center">Or Email Duonlineae@gmail.com</h3>
+              </a>
+              <h5 className="font-white text-center mt-3">
+                To GET SUPER FAST DU HOME INTERNET
+              </h5>
               <center>
                 {/* <img
                   src="img/rt.png"

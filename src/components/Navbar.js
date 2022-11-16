@@ -59,9 +59,15 @@ const Navbar = () => {
                 <div className="col-xl-3 col-lg-3 d-none d-lg-block">
                   <div className="Appointment">
                     <div className="phone_num d-none d-xl-block">
-                      <a href="tel:054-7731481">
+                      <a href="tel:052-6317200">
                         {" "}
-                        <i className="fa fa-phone"></i> 054-7731481
+                        <i className="fa fa-phone"></i> 052-6317200
+                      </a>
+                    </div>
+                    <div className="phone_num d-none d-xl-block">
+                      <a href="mailto:duonlineae@gmail.com">
+                        {" "}
+                        <i className="fa fa-envelope"></i> Duonlineae@gmail.com
                       </a>
                     </div>
                   </div>
