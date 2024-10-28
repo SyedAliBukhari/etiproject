@@ -34,7 +34,7 @@ const PackagesList = () => {
                 data-wow-delay=".3s"
                 style={{ fontSize: "1.5rem", letterSpacing: "0.3rem" }}
               >
-                Enjoy Free Calls & 15% Discount
+                Enjoy Free Calls & Discount
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ const PackagesList = () => {
                 data-wow-delay=".3s"
                 style={{ fontSize: "1.5rem", letterSpacing: "0.3rem" }}
               >
-                10% discount or 2 Months free
+                Enjoy discount or 2 Months free
               </p>
             </div>
           </div>

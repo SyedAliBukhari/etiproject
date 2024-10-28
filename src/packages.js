@@ -1,3 +1,131 @@
+// export const AllPackages = [
+//   {
+//     oldValue: "389",
+//     newValue: "350",
+//     highLight: ["Save AED 400, no deposit & Installation"],
+//     packageName: "Starter",
+//     packageSummary: [
+//       {
+//         preValue: "250 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "500 Mbps",
+//         postValue: "Promotional speed",
+//       },
+//       {
+//         preValue: "Advanced",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "2 months on us",
+//       "Essential Packages",
+//       "Free calls to UAE landlines",
+//       "du Home Internet, TV & Landline",
+//       "Recordable HDTV Receiver",
+//     ],
+//     bottomHighLight: ["Free Installation"],
+//   },
+//   {
+//     oldValue: "529",
+//     newValue: "450",
+//     highLight: [
+//       "15% off for 12 months",
+//       "Save AED 400, no deposit & Installation",
+//     ],
+//     packageName: "Basic",
+//     packageSummary: [
+//       {
+//         preValue: "500 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "750 Mbps",
+//         postValue: "Promotional speed",
+//       },
+//       {
+//         preValue: "Premium",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "12 months on us",
+//       "Essential Packages",
+//       "2x OSN",
+//       "Entertainment Pack - 19 Channels",
+//       "Free calls to UAE landlines",
+//       "Recordable HDTV Receiver",
+//     ],
+//     bottomHighLight: ["Free Installation"],
+//   },
+//   {
+//     oldValue: "689",
+//     newValue: "586",
+//     highLight: [
+//       "15% off for 12 months",
+//       "Save AED 400, no deposit & Installation",
+//     ],
+//     packageName: "Advance",
+//     packageSummary: [
+//       {
+//         preValue: "600 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "800 Mbps",
+//         postValue: "Promotional speed",
+//       },
+//       {
+//         preValue: "Premium",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "12 months on us",
+//       "Entertainment Pack - 19 Channels",
+//       "Premium TV - 1 of your choice",
+//       "beIN Full Pack - 45 Channels",
+//       "Free calls to UAE landlines",
+//       "Recordable HDTV Receiver",
+//     ],
+//     bottomHighLight: ["Free Installation"],
+//   },
+//   {
+//     oldValue: "1189",
+//     newValue: "1011",
+//     highLight: [
+//       "15% off for 12 months",
+//       "Save AED 400, no deposit & Installation",
+//     ],
+//     packageName: "Ultimate",
+//     packageSummary: [
+//       {
+//         preValue: "800 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "1 Gbps",
+//         postValue: "Promotional speed",
+//       },
+//       {
+//         preValue: "Unlimited",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "12 months on us",
+//       "Entertainment Pack - 19 Channels",
+//       "Premium TV - 1 of your choice",
+//       "beIN Full Pack - 45 Channels",
+//       "Free calls to UAE landlines",
+//       "Recordable HDTV Receiver",
+//     ],
+//     bottomHighLight: ["1 TV package free for 2 months", "Free Installation"],
+//   },
+// ];
+
+
 export const AllPackages = [
   {
     oldValue: "389",
@@ -9,10 +137,10 @@ export const AllPackages = [
         preValue: "250 Mbps",
         postValue: "Download",
       },
-      {
-        preValue: "500 Mbps",
-        postValue: "Promotional speed",
-      },
+      // {
+      //   preValue: "500 Mbps",
+      //   postValue: "Promotional speed",
+      // },
       {
         preValue: "Advanced",
         postValue: "wifi router",
@@ -28,22 +156,22 @@ export const AllPackages = [
     bottomHighLight: ["Free Installation"],
   },
   {
-    oldValue: "529",
-    newValue: "450",
+    oldValue: "429",
+    newValue: "279",
     highLight: [
-      "15% off for 12 months",
+      "35% Discount for 6 months",
       "Save AED 400, no deposit & Installation",
     ],
     packageName: "Basic",
     packageSummary: [
       {
-        preValue: "500 Mbps",
+        preValue: "800 Mbps",
         postValue: "Download",
       },
-      {
-        preValue: "750 Mbps",
-        postValue: "Promotional speed",
-      },
+      // {
+      //   preValue: "750 Mbps",
+      //   postValue: "Promotional speed",
+      // },
       {
         preValue: "Premium",
         postValue: "wifi router",
@@ -60,22 +188,22 @@ export const AllPackages = [
     bottomHighLight: ["Free Installation"],
   },
   {
-    oldValue: "689",
-    newValue: "586",
+    oldValue: "549",
+    newValue: "357",
     highLight: [
-      "15% off for 12 months",
+      "35% Discount for 6 months",
       "Save AED 400, no deposit & Installation",
     ],
     packageName: "Advance",
     packageSummary: [
       {
-        preValue: "600 Mbps",
+        preValue: "1 Gbps",
         postValue: "Download",
       },
-      {
-        preValue: "800 Mbps",
-        postValue: "Promotional speed",
-      },
+      // {
+      //   preValue: "800 Mbps",
+      //   postValue: "Promotional speed",
+      // },
       {
         preValue: "Premium",
         postValue: "wifi router",
@@ -92,22 +220,22 @@ export const AllPackages = [
     bottomHighLight: ["Free Installation"],
   },
   {
-    oldValue: "1189",
-    newValue: "1011",
+    oldValue: "749",
+    newValue: "487",
     highLight: [
-      "15% off for 12 months",
+      "35% Discount for 6 months",
       "Save AED 400, no deposit & Installation",
     ],
     packageName: "Ultimate",
     packageSummary: [
       {
-        preValue: "800 Mbps",
+        preValue: "1 Gbps",
         postValue: "Download",
       },
-      {
-        preValue: "1 Gbps",
-        postValue: "Promotional speed",
-      },
+      // {
+      //   preValue: "1 Gbps",
+      //   postValue: "Promotional speed",
+      // },
       {
         preValue: "Unlimited",
         postValue: "wifi router",
@@ -125,18 +253,79 @@ export const AllPackages = [
   },
 ];
 
+// end new all packages
+//--------------------------------------------
+// export const homeLandline = [
+//   {
+//     oldValue: "299",
+//     newValue: "269",
+//     highLight: [
+//       "Save AED 400, no deposit fee & free installation",
+//       "2 months free or 10% discount",
+//     ],
+//     packageName: "Light Starter",
+//     packageSummary: [
+//       {
+//         preValue: "10/3 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "Standard",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "2 months on us",
+//       "130+ du View Channels",
+//       "Free calls to UAE landlines",
+//       "Same Day Connection",
+//       "Unlimited Internet",
+//     ],
+//     bottomHighLight: [],
+//   },
+//   {
+//     oldValue: "349",
+//     newValue: "314",
+//     highLight: [
+//       "Save AED 400, no deposit fee & free installation",
+//       "2 months free or 10% discount",
+//     ],
+//     packageName: "Light Basic",
+//     packageSummary: [
+//       {
+//         preValue: "20/6 Mbps",
+//         postValue: "Download",
+//       },
+//       {
+//         preValue: "Advance",
+//         postValue: "wifi router",
+//       },
+//     ],
+//     points: [
+//       "2 months on us",
+//       "130+ du View Channels",
+//       "Free calls to UAE landlines",
+//       "Same Day Connection",
+//       "Unlimited Internet",
+//     ],
+//     bottomHighLight: [],
+//   },
+// ];
+
+// new home land line
+
 export const homeLandline = [
   {
-    oldValue: "299",
-    newValue: "269",
+    oldValue: "",
+    newValue: "299",
     highLight: [
       "Save AED 400, no deposit fee & free installation",
-      "2 months free or 10% discount",
+      "2 months free",
     ],
     packageName: "Light Starter",
     packageSummary: [
       {
-        preValue: "10/3 Mbps",
+        preValue: "12 Mbps",
         postValue: "Download",
       },
       {
@@ -154,16 +343,16 @@ export const homeLandline = [
     bottomHighLight: [],
   },
   {
-    oldValue: "349",
-    newValue: "314",
+    oldValue: "",
+    newValue: "349",
     highLight: [
       "Save AED 400, no deposit fee & free installation",
-      "2 months free or 10% discount",
+      "2 months free",
     ],
     packageName: "Light Basic",
     packageSummary: [
       {
-        preValue: "20/6 Mbps",
+        preValue: "20 Mbps",
         postValue: "Download",
       },
       {
@@ -181,6 +370,8 @@ export const homeLandline = [
     bottomHighLight: [],
   },
 ];
+
+// end new home land line
 
 export const homeWireless = [
   {
