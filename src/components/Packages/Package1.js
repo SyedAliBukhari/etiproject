@@ -6,6 +6,7 @@ const Package1 = ({
   count,
   LandlineImage,
   WirelessImage,
+  mainPack
 }) => {
   const {
     oldValue,
@@ -39,7 +40,7 @@ const Package1 = ({
                 {" "}
                 {oldValue}{" "}
               </span>
-              {newValue}* /month + 5%VAT
+              {newValue}* /month + VAT
             </h4>
 
             {highLight?.map((data, i) => (
@@ -92,7 +93,6 @@ const Package1 = ({
           {/* service-content end */}
         </div>
       </div>
-
       {decreaseHeight && count === 1 ? (
         <div
           className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center wow fadeInUp"
@@ -111,6 +111,24 @@ const Package1 = ({
             style={{ width: "90%", height: "auto", borderRadius: "20px" }}
           />
         </div>
+      ) : (mainPack && count === 5) ?(
+        <div
+        className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center wow fadeInUp"
+        data-wow-duration="1.2s"
+        data-wow-delay=".7s"
+      >
+        <img
+          alt="Rendering Error"
+          src={
+            LandlineImage
+              ? "img/221.png"
+              : WirelessImage
+              ? "img/wireless.png"
+              : "img/221.png"
+          }
+          style={{ width: "90%", height: "auto", borderRadius: "20px" }}
+        />
+      </div>
       ) : (
         ""
       )}

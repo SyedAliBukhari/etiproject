@@ -1,4 +1,5 @@
 import React from "react";
+import { discount } from "../packages";
 const Slider = () => {
   return (
     <div className="slider_area" id="fillform">
@@ -27,7 +28,7 @@ const Slider = () => {
                   data-wow-delay=".1s"
                   style={{ fontSize: "2.1rem" }}
                 >
-                  15% Monthly Discount & Free Installation
+                  {discount}% Monthly Discount & Free Installation
                 </h4>
                 <p
                   className="wow fadeInRight text-white"

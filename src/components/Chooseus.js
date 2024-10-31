@@ -37,8 +37,7 @@ const Chooseus = () => {
                 data-wow-duration="1s"
                 data-wow-delay=".3s"
               >
-                Get 2 Months Free In Some Selected Locations OR 3 Months 50%
-                Discount In SPORTS Plan
+                20% Discount for 24 months
               </p>
             </div>
           </div>
@@ -120,6 +119,8 @@ const Chooseus = () => {
               </center>
             </div>
           </div>
+
+          
         </div>
       </div>
     </div>

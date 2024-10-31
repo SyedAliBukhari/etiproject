@@ -1,4 +1,5 @@
 import React from "react";
+import { discount } from "../packages";
 const About = () => {
   return (
     <div className="about_area">
@@ -25,7 +26,7 @@ const About = () => {
               </div>
               <div className="about_list">
                 <span>
-                  Get 15% Monthly Discount & Free Installation, We use Advance
+                  Get {discount}% Monthly Discount & Free Installation, We use Advance
                   Wi-Fi router for more coverage.
                 </span>
 
@@ -36,6 +37,13 @@ const About = () => {
                     data-wow-delay=".5s"
                   >
                     Get your du Home Internet Connection within same day
+                  </li>
+                  <li
+                    className="wow fadeInRight mt-3"
+                    data-wow-duration="1s"
+                    data-wow-delay=".5s"
+                  >
+                   Just Emirates id or visa passport is required
                   </li>
                   <li
                     className="wow fadeInRight"

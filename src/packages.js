@@ -125,12 +125,12 @@
 //   },
 // ];
 
-
+export const discount = '35';
 export const AllPackages = [
   {
     oldValue: "389",
     newValue: "350",
-    highLight: ["Save AED 400, no deposit & Installation"],
+    highLight: ["Get your 10% off","12 Months rental discount"],
     packageName: "Starter",
     packageSummary: [
       {
@@ -147,11 +147,9 @@ export const AllPackages = [
       },
     ],
     points: [
-      "2 months on us",
-      "Essential Packages",
-      "Free calls to UAE landlines",
-      "du Home Internet, TV & Landline",
-      "Recordable HDTV Receiver",
+      "Light English Package",
+      "HDTV receiver",
+      "Disnep included",
     ],
     bottomHighLight: ["Free Installation"],
   },
@@ -159,8 +157,8 @@ export const AllPackages = [
     oldValue: "429",
     newValue: "279",
     highLight: [
-      "35% Discount for 6 months",
-      "Save AED 400, no deposit & Installation",
+      "Get your 35% off",
+      "6 months rental discount",
     ],
     packageName: "Basic",
     packageSummary: [
@@ -168,22 +166,17 @@ export const AllPackages = [
         preValue: "800 Mbps",
         postValue: "Download",
       },
-      // {
-      //   preValue: "750 Mbps",
-      //   postValue: "Promotional speed",
-      // },
+
       {
         preValue: "Premium",
         postValue: "wifi router",
       },
     ],
     points: [
-      "12 months on us",
-      "Essential Packages",
-      "2x OSN",
-      "Entertainment Pack - 19 Channels",
-      "Free calls to UAE landlines",
+      "1 TV Package",
+      "2 Streaming services",
       "Recordable HDTV Receiver",
+      "Disnep included",
     ],
     bottomHighLight: ["Free Installation"],
   },
@@ -191,8 +184,8 @@ export const AllPackages = [
     oldValue: "549",
     newValue: "357",
     highLight: [
-      "35% Discount for 6 months",
-      "Save AED 400, no deposit & Installation",
+      "Get your 35% off",
+      "6 months rental discount",
     ],
     packageName: "Advance",
     packageSummary: [
@@ -205,17 +198,15 @@ export const AllPackages = [
       //   postValue: "Promotional speed",
       // },
       {
-        preValue: "Premium",
+        preValue: "2 Premium",
         postValue: "wifi router",
       },
     ],
     points: [
-      "12 months on us",
-      "Entertainment Pack - 19 Channels",
-      "Premium TV - 1 of your choice",
-      "beIN Full Pack - 45 Channels",
-      "Free calls to UAE landlines",
+      "3 TV Packages",
+      "3 Streaming Services",
       "Recordable HDTV Receiver",
+      "Disnep Included"
     ],
     bottomHighLight: ["Free Installation"],
   },
@@ -223,8 +214,8 @@ export const AllPackages = [
     oldValue: "749",
     newValue: "487",
     highLight: [
-      "35% Discount for 6 months",
-      "Save AED 400, no deposit & Installation",
+      "Get your 35% Discount",
+      "6 months rental discount",
     ],
     packageName: "Ultimate",
     packageSummary: [
@@ -237,20 +228,66 @@ export const AllPackages = [
       //   postValue: "Promotional speed",
       // },
       {
-        preValue: "Unlimited",
+        preValue: "2 Unlimited",
         postValue: "wifi router",
       },
     ],
     points: [
-      "12 months on us",
-      "Entertainment Pack - 19 Channels",
-      "Premium TV - 1 of your choice",
-      "beIN Full Pack - 45 Channels",
-      "Free calls to UAE landlines",
-      "Recordable HDTV Receiver",
+      "5 TV Packages",
+      "4 Streaming Services",
+      "2 Recordable HDTV Receiver",
+      "Disnep included"
     ],
-    bottomHighLight: ["1 TV package free for 2 months", "Free Installation"],
+    bottomHighLight: [ "Free Installation"],
   },
+  // new packages
+  
+  {
+    oldValue: "",
+    newValue: "1599",
+    highLight: ["Premium Services","24 months contract"],
+    packageName: "Platinum",
+    packageSummary: [
+      {
+        preValue: "3 Gbps",
+        postValue: "Download",
+      },
+      {
+        preValue: "2 Gig",
+        postValue: "wifi router",
+      },
+    ],
+    points: [
+      "5 TV Packages",
+      "5 Streaming Services",
+      "2 Recordable HDTV Receiver",
+      "Disnep included"
+    ],
+    bottomHighLight: [ "Free Installation"],
+  },
+  {
+    oldValue: "",
+    newValue: "2499",
+    highLight: ["Premium Services","24 months contract"],
+    packageName: "Infinity",
+    packageSummary: [
+      {
+        preValue: "10 Gbps",
+        postValue: "Download",
+      },
+      {
+        preValue: "2 Gig",
+        postValue: "wifi router",
+      },
+    ],
+    points: [
+      "6 TV Packages",
+      "6 Streaming Services",
+      "3 Recordable HDTV Receiver",
+      "Disnep included"
+    ],
+    bottomHighLight: [ "Free Installation"],
+  },  
 ];
 
 // end new all packages
@@ -366,6 +403,59 @@ export const homeLandline = [
       "Free calls to UAE landlines",
       "Same Day Connection",
       "Unlimited Internet",
+    ],
+    bottomHighLight: [],
+  },
+
+  // new
+  {
+    oldValue: "399",
+    newValue: "359",
+    highLight: [
+      "10% Dicount",
+      "2 months free",
+    ],
+    packageName: "Light Advance",
+    packageSummary: [
+      {
+        preValue: "30/8 Mbps",
+        postValue: "Download",
+      },
+      // {
+      //   preValue: "Advance",
+      //   postValue: "wifi router",
+      // },
+    ],
+    points: [
+      "Amazon Prime",
+      "Free MIFI Router",
+      "Free Installation",
+      "Free UAE Landline Calls",
+      "Internet on same day"
+    ],
+    bottomHighLight: [],
+  },
+  {
+    oldValue: "699",
+    newValue: "629",
+    highLight: [
+      "10% Discount",
+      "2 months free",
+    ],
+    packageName: "Light Ultimate",
+    packageSummary: [
+      {
+        preValue: "100/30 Mbps",
+        postValue: "Download",
+      },
+
+    ],
+    points: [
+      "Amazon Prime",
+      "Free MIFI Router",
+      "Free Installation",
+      "Free UAE Landline calls",
+      "Internet on same day"
     ],
     bottomHighLight: [],
   },

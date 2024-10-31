@@ -41,7 +41,7 @@ const PackagesList = () => {
         </div>
         <div className="row">
           {packagesData?.map((data, i) => (
-            <Package1 data={data} key={i} />
+            <Package1 data={data} key={i} mainPack={true} count={i}/>
           ))}
         </div>
         {/* first end */}
@@ -79,8 +79,8 @@ const PackagesList = () => {
             <Package1
               data={data}
               key={i}
-              decreaseHeight={true}
-              count={i}
+              // decreaseHeight={true}
+              // count={i}
               LandlineImage={true}
             />
           ))}
