@@ -69,8 +69,18 @@ const Package1 = ({
             <ul>
               {points?.map((point, i) => (
                 <>
-                  <li key={i} style={{ fontSize: "13px" }}>
-                    {point}{" "}
+                  <li key={i} style={point === "Disnep included" ?{display:'flex',alignItems:'center',margin:'auto',fontSize:'30px', fontWeight:'bold'} :{fontSize: "13px"} }>
+                    {point === "Disnep included" ? (<>
+                      <img
+            alt="Rendering Error"
+            src={
+              "img/original.png"
+            }
+            style={{ width: "25%", height: "auto", borderRadius: "20px" }}
+          />  <h6 className="package-highlight text-center" >
+         Included
+        </h6>
+      </>): point} {" "}
                   </li>
                   {decreaseHeight && count < 2 && <br />}
                 </>

@@ -206,7 +206,7 @@ export const AllPackages = [
       "3 TV Packages",
       "3 Streaming Services",
       "Recordable HDTV Receiver",
-      "Disnep Included"
+      "Disnep included"
     ],
     bottomHighLight: ["Free Installation"],
   },
